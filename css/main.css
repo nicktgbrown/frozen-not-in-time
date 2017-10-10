@@ -1,0 +1,50 @@
+html {
+  font-family: 'Fredoka One', cursive;
+}
+
+h1 {
+  color: #990073;
+}
+
+.type {
+  top: 100px;
+  left: 10%;
+  display: block;
+  position: absolute;
+}
+
+.icecream {
+  width: 100%;
+  margin: 0;
+  position: absolute;
+}
+
+.icecream > img {
+  display: block;
+  width: 19%;
+}
+
+.icecream:first-child {
+  left: 74%;
+  top: 210px;
+}
+
+.icecream:nth-child(2) {
+  top: 310px;
+  left: 74%;
+}
+
+.icecream:nth-child(3) {
+  top: 128px;
+  left: 75%;
+}
+
+.icecream:nth-child(4) {
+  top: 56px;
+  left: 74%;
+}
+
+.icecream:last-child {
+  top: 0px;
+  left: 74%;
+}
